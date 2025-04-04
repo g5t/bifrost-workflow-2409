@@ -26,14 +26,17 @@ dependencies = [
 "plopp==25.3.0",
 "scippneutron==25.2.1",
 "scippnexus==25.4.0",
-"sciline==24.10.0",
+"sciline==25.04.0",
 "pythreejs==2.4.2",
 "ipympl==0.9.7",
 "mpltoolbox==24.5.1",
 "ipywidgets==8.1.5",
 "essspectroscopy==25.3.0",
-"typer",
+"pooch",
 "python-dotenv",
+"rich",
+"tqdm",
+"typer",
 ]
 
 dynamic = ["version"]
