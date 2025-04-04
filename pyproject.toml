@@ -22,18 +22,21 @@ requires-python = "~=3.10"
 
 dependencies = [
 "loguru==0.7.2",
-"scipp[all]==24.9.1",
-"plopp==24.9.1",
-"scippneutron==24.8.0",
-"scippnexus==24.9.0",
-"sciline==24.6.3",
+"scipp[all]==25.4.0",
+"plopp==25.3.0",
+"scippneutron==25.2.1",
+"scippnexus==25.4.0",
+"sciline==25.04.0",
 "pythreejs==2.4.2",
-"ipympl==0.9.4",
+"ipympl==0.9.7",
 "mpltoolbox==24.5.1",
 "ipywidgets==8.1.5",
-"essspectroscopy==0.24.9.0",
-"typer",
+"essspectroscopy==25.3.0",
+"pooch",
 "python-dotenv",
+"rich",
+"tqdm",
+"typer",
 ]
 
 dynamic = ["version"]
